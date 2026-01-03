@@ -34,13 +34,24 @@ nav a {
 
 .hero {
   text-align: center;
-  padding: 80px 20px;
+  padding: 90px 20px;
   background: linear-gradient(135deg, #1e293b, #334155);
   color: white;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
 section {
-  padding: 50px 10%;
+  padding: 60px 10%;
 }
 
 h2 {
@@ -55,12 +66,11 @@ h2 {
   gap: 15px;
 }
 
-.grid span {
+.grid span, .card {
   background: white;
-  padding: 12px;
-  text-align: center;
+  padding: 15px;
   border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .project {
@@ -69,6 +79,12 @@ h2 {
   margin-bottom: 20px;
   border-left: 5px solid #38bdf8;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0284c7;
 }
 
 footer {
